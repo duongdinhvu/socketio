@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Demo Socket IO Chat</title>
+        <script src="jquery-3.3.1.min.js"></script>
+        <script src="socket.io/socket.io.js"></script>
+        <script src="xuly1.js"></script>
+        <link rel="stylesheet" type="text/css" href="layout1.css">
+    </head>
+    <body>
+        
+        <div id="wrapper">
+            <div id="left">
+               <h4>Room online</h4>
+               <div id="dsRoom"></div>
+            </div>
+            <div id="right">
+                <span id="roomHientai"></span>
+                <div>
+                    <input type="text" id="txtRoom"/>
+                    <input type="button" id="btnTaoRoom" value="Tạo"/>
+                </div>
+                <div id="listMessage"></div>
+
+            </div>
+            <div id="formChat">   
+                    <input type="text" id="txtMessage"/>
+                    <input type="button" id="btnChat" value="Gửi"/>
+            </div>
+        </div>
+       
+    </body>
+</html>
+
